@@ -232,6 +232,8 @@ Window {
         y: 531
         width: text3.width + 20
         height: text3.height + 20
+        anchors.rightMargin: -17
+        anchors.right: image3.left
         layer.enabled: true
         layer.effect: shadow
 
